@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import filedialog
 from pygame import mixer
 
-
+# self is the instance of the class which is pointing to the current object
 class MP:
     def __init__(self, win):
         win.geometry('300x400')
